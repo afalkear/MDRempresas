@@ -4,7 +4,9 @@
 			<input type="text" value="" name="s" id="s" placeholder="<?php esc_attr_e('Search', 'reverie'); ?>">
 		</div>
 		<div class="large-4 small-3 columns">
-			<input type="submit" id="searchsubmit" value="<?php esc_attr_e('Search', 'reverie'); ?>" class="button expand">
+      <button type="submit" id="searchsubmit" class="button expand">
+        <i class="fi-magnifying-glass"></i>
+      </button>
 		</div>
 	</div>
 </form>
