@@ -64,6 +64,11 @@
 	            ) ),
 	        ) );
 	    ?>
+	    <ul class="right">
+	    	<li class="has-form">
+				  <?php include('searchform.php') ?>
+				</li>
+	    </ul>
 	    <?php
 	    	// Uncomment the following to enable the right menu (additional menu)
 			
@@ -79,7 +84,7 @@
 	                'menu_type' => 'main-menu'
 	            ) ),
 	        ) );
-	        */
+	      */
 	    ?>
 	    </section>
 	</nav>
