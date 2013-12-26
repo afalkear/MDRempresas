@@ -496,7 +496,8 @@ ol.commentlist li section.comment a.comment-reply-link:hover, ol.commentlist li 
 footer.full-width {
   background-color: #fff;
   border-top: 1px solid #ccc;
-  padding-top: 3rem;
+  /* change by alex, it was before: 3rem*/
+  padding-top: 0rem;
 }
 footer.full-width p {
   font-size: 0.875rem;
@@ -506,7 +507,7 @@ footer.full-width a {
   font-size: 0.9375rem;
 }
 footer.full-width a:hover, footer.full-width a:focus {
-  color: #444444;
+  color: #ffffff;
 }
 footer.full-width .love-reverie {
   border-top: 1px solid #ccc;
@@ -539,3 +540,42 @@ footer.full-width .love-reverie {
     padding-top: 2rem;
   }
 }
+
+/* ---------------- My changes --------------------*/
+
+/* Footer tweaks */
+#menu-utility-menu {
+  display: inline-block;
+}
+
+#utility-menu-container {
+  text-align: center;
+}
+
+.light-gray {
+  background: #333;
+}
+
+.dark-gray {
+  background: #555;
+}
+
+.footer-space {
+  padding: 0.5em;
+}
+
+.last-footer {
+  padding-bottom: 1em;
+}
+
+.full-width-row {
+  min-width:100% !important; 
+}
+.full-width-row.light-gray {
+  padding-top: 1em;
+}
+
+/*sticky footer*/
+
+
+/* End footer tweaks */

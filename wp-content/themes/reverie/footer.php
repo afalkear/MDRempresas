@@ -7,15 +7,20 @@
 	</div>
 </div>
 
-<footer class="full-width" role="contentinfo">
-	<div class="row">
-		<div class="large-12 columns">
+<footer class="full-width sticky-footer" role="contentinfo">
+	<div class="row light-gray full-width-row">
+		<div class="large-12 small-centered columns" id="utility-menu-container">
 			<?php wp_nav_menu(array('theme_location' => 'utility', 'container' => false, 'menu_class' => 'inline-list')); ?>
 		</div>
 	</div>
-	<div class="row love-reverie">
-		<div class="large-12 columns">
-			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e('Made with Love in','reverie'); ?> <a href="http://themefortress.com/reverie/" rel="nofollow" title="Reverie Framework">Reverie</a>.</p>
+	<div class="row dark-gray full-width-row footer-space ">
+		<div class="large-12 small-centered text-center columns">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo_derose_pequeno.png" alt="Logo Método DeRose">
+		</div>
+	</div>
+	<div class="row dark-gray full-width-row footer-space last-footer">
+		<div class="large-12 small-centered text-center columns">
+				M&eacute;todo DeRose
 		</div>
 	</div>
 </footer>

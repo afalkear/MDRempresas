@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Favicon and Feed -->
-	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 
 	<!--  iPhone Web App Home Screen Icon -->
@@ -89,8 +89,29 @@
 	    </section>
 	</nav>
 	<!-- End of Top-Bar -->
+	<!-- Beginning of second navigation Bar -->
+	<!-- nav class="top-bar full-width-row dark-gray" data-topbar>
+	    <section class="top-bar-section">
+	    <ul class="right">
+	    	<li class="has-dropdown">
+				  <a href="#">Personal teaching</a>
+				  <ul class="dropdown">
+				  	<li><a href="#">At your company</a></li>
+				  	<li><a href="#">In yout house</a></li>
+				  </ul>
+				</li>
+				<li class="has-dropdown">
+				  <a href="#">Intensive teaching</a>
+				  <ul class="dropdown">
+				  	<li><a href="#">2 days</a></li>
+				  	<li><a href="#">5 days</a></li>
+				  </ul>
+				</li>
+	    </ul>
+	    </section>
+	</nav -->
 </header>
 
 <!-- Start the main container -->
 <div class="container" role="document">
-	<div class="row">
+	<div class="row full-width-row">
